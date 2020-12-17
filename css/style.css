@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b6e59e;
+}
+#map {
+  display: flex;
+  position: relative;
+  margin: 100px auto;
+  height: 400px;
+  width: 600px;
+  overflow: hidden;
+}
+
+#form-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.gps {
+  display: grid;
+  color: white;
+  font-size: 1.4em;
+  opacity: 0.9;
+}
+
+#inpt {
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 20px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#sbmt {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#sbmt:hover {
+  background-color: #0278ae;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
